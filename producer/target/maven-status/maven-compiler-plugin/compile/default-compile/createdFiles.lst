@@ -1,0 +1,6 @@
+com\demo\producer\config\MqConfirmConfig.class
+com\demo\producer\ProducerApplication.class
+com\demo\producer\config\MqReturnConfig$1.class
+com\demo\producer\config\MqJacksonConfig.class
+com\demo\producer\config\MqReturnConfig.class
+com\demo\producer\config\MqConfirmConfig$1.class

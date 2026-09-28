@@ -1,0 +1,5 @@
+com\demo\consumer\config\FanoutConfiguration.class
+com\demo\consumer\config\MqJacksonConfig.class
+com\demo\consumer\ConsumerApplication.class
+com\demo\consumer\listeners\Mqlistener.class
+com\demo\consumer\config\DirectConfiguration.class

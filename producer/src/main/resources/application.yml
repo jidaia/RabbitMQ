@@ -1,0 +1,19 @@
+logging:
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
+spring:
+  rabbitmq:
+    host: 192.168.228.128
+    port: 5672
+    virtual-host: /pomian
+    username: pomian
+    password: 20070408llT
+#    connect-timeout: 1s #设置连接超时
+#    template:
+#      retry:
+#        enable: true #开启超时重试机制
+#        initial-interval: 100ms #失败后的初始等待时间
+#        multiplier: 1 #失败后下次等待时长的倍数
+#        max-attempts: 3 #最大重试次数
+#    publisher-confirm-type: correlated   # 开启 confirm
+#    publisher-returns: true              # 开启 return（会自动把 mandatory 设为 true）

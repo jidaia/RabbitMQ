@@ -1,0 +1,5 @@
+D:\java_code\mq-demo\consumer\src\main\java\com\demo\consumer\config\DirectConfiguration.java
+D:\java_code\mq-demo\consumer\src\main\java\com\demo\consumer\config\FanoutConfiguration.java
+D:\java_code\mq-demo\consumer\src\main\java\com\demo\consumer\config\MqJacksonConfig.java
+D:\java_code\mq-demo\consumer\src\main\java\com\demo\consumer\ConsumerApplication.java
+D:\java_code\mq-demo\consumer\src\main\java\com\demo\consumer\listeners\Mqlistener.java

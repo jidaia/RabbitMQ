@@ -1,0 +1,21 @@
+logging:
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
+spring:
+  rabbitmq:
+    host: 192.168.228.128
+    port: 5672
+    virtual-host: /pomian
+    username: pomian
+    password: 20070408llT
+    listener:
+      simple:
+        prefetch: 1 #默认250
+        acknowledge-mode: auto #开启消息者确认模式
+        retry:
+          enabled: true #开启重试机制
+          initial-interval: 1000ms
+          multiplier: 1
+          max-attempts: 2
+          stateless: true #true表示无状态 false有状态 如果有实物 改为false
+
